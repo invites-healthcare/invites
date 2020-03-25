@@ -1,1 +1,1 @@
-# invites
+# invites public
