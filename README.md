@@ -1,5 +1,5 @@
 # Android app 수정사항
-## [8월 7일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
+### [8월 7일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
 <br>
 
 ## 수정내용
