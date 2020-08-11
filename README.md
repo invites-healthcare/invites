@@ -1,8 +1,11 @@
 # Android app 수정사항
-### [8월 10일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
+### [8월 11일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
 <br>
 
 ## 수정내용
+### 8월 11일
+ - 로고 변경(로고는 아직 미확정)
+
 ### 8월 10일
  - MyDna 웹뷰 연결
  - 본인인증 시 안내 문구 추가
