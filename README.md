@@ -1,8 +1,11 @@
 # Android app 수정사항
-### [8월 11일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
+### [8월 14일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
 <br>
 
 ## 수정내용
+### 8월 14일
+ - 인트로, 로그인 디자인 변경 적용
+ 
 ### 8월 11일
  - 로고 변경(로고는 아직 미확정)
 
