@@ -1,8 +1,20 @@
 # Android app 수정사항
-### [8월 14일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
+### [8월 20일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
+> Note : 확장자 .bin -> .apk로 변경 하세요
 <br>
 
+
 ## 수정내용
+### 8월 19일
+ - push 랜딩
+ - 약관 적용
+```
+ * 새로운 회원가입, 인트로 디자인 미적용(20일 적용 예정)
+ * 오픈소스 라이센스 미적용(20일 적용 예정)
+ 
+```
+ 
+
 ### 8월 14일
  - 인트로, 로그인 디자인 변경 적용
  - 댓글 push기능 적용
