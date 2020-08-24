@@ -1,10 +1,13 @@
 # Android app 수정사항
-### [8월 21일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
+### [8월 24일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
 > Note : 확장자 .bin -> .apk로 변경 하세요
 <br>
 
 
 ## 수정내용
+### 8월 24일
+ - 오픈소스 라이센스 적용
+
 ### 8월 21일
  - push 방식 변경 적용(구독->일반)
  - push 추가(1:1 문의)
