@@ -1,10 +1,20 @@
 # Android app 수정사항
-### [8월 20일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
+### [8월 21일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
 > Note : 확장자 .bin -> .apk로 변경 하세요
 <br>
 
 
 ## 수정내용
+### 8월 21일
+ - push 방식 변경 적용(구독->일반)
+ - push 추가(1:1 문의)
+ - push 댓글 랜딩시 댓글 열림 
+ - 로그인 디자인 변경
+```
+ * 오픈소스 라이센스 미적용 
+ -> iOS와 통합하고 추후 유지보수 용의하게(앱업데이트 없이) 문서 포맷 변경
+```
+
 ### 8월 19일
  - push 랜딩(댓글, 상담 답변, DNA 검사 결과)
  - 알림 리스트 화면 개발 완료
