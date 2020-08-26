@@ -3,6 +3,7 @@
 > Note : 확장자 .bin -> .apk로 변경 하세요
 <br>
 
+### 스토어 연결 : https://dyn.care8.co.kr/welcome
 
 ## 수정내용
 ### 8월 24일
