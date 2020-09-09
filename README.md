@@ -1,5 +1,5 @@
 # Android app 수정사항
-### [9월 일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
+### [9월 8일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
 > Note : 확장자 .bin -> .apk로 변경 하세요
 
 ### 스토어 연결 : https://dyn.care8.co.kr/welcome
