@@ -1,5 +1,5 @@
 # Android app 수정사항
-### [9월 8일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
+### [9월 18일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
 > Note : 확장자 .bin -> .apk로 변경 하세요
 
 ### 스토어 연결 : https://dyn.care8.co.kr/welcome
@@ -7,6 +7,11 @@
 <br>
 
 ## 수정내용
+### 9월 18일
+ - 에러 메세지 정의
+ - 피드 동영상 글씨 아래 여백 추가
+ - 운영, 테스트 서버 디버깅 모드 추가
+
 ### 8월 24일
  - 오픈소스 라이센스 적용
 
