@@ -1,5 +1,5 @@
 # Android app 수정사항
-### [10월 21일 작심7일 테스트 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
+### [10월 22일 작심7일 테스트 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
 > Note : 카카오를 통해 링크하신경우 확장자 .bin -> .apk로 변경 하세요
 
 ### 스토어 연결 : https://dyn.care8.co.kr/welcome
@@ -7,6 +7,9 @@
 <br>
 
 ## 수정내용
+### 10월 22일
+ - 작심 7일 push 기능추가
+
 ### 10월 16일
  - 작심7일 테스트 버전
 
