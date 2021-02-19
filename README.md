@@ -7,8 +7,7 @@
 <br>
 
 # Android app 수정사항
-### [2월 1일 APK Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
- - 60종, 피드 필터 적용 버전(60종적용된 계정정보 - test8009/test123!@#)
+### [2월 19일 APK(1.2.7) Download](https://github.com/invites-healthcare/invites/raw/master/app-debug.apk)
 > Note : 카카오를 통해 링크하신경우 확장자 .bin -> .apk로 변경 하세요
 
 ### 스토어 연결 : https://dyn.care8.co.kr/welcome
