@@ -1,7 +1,4 @@
 # API 규격서
-- [스웨거 문서 이동](http://49.50.162.235:8081/swagger-ui.html)
-- 담당자 오재웅 : markjfirst@gmail.com
-
 <br>
 
 ## Schema
