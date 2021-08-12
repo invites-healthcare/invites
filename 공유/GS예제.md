@@ -109,6 +109,8 @@ class InquiryResult{
 }
 
 class InquiryDto{
+    private int int userIdx;        //care8 userIdx
+    private int gsShopUserIdx;      //gsshop userIdx
     private int q1Height;           //키
     private int q1Weight;           //몸무게
     private List<Integer> q2;       //문진 2번(여러가지 선택)
@@ -124,7 +126,7 @@ class InquiryDto{
     private int q5;                 //문진 5번
     private int q6;                 //문진 6번
     private List<Integer> q7;       //문진 3_7번(여러가지 선택)
-    int userIdx;
+    
     //...getter, setter 생략
 }
 ```
