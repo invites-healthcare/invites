@@ -1,6 +1,6 @@
 # Care8 DNA, GsShop API 연동 예제
 기본적으로 RestFul 방식으로 json을 데이터로 통신합니다. <br>
-저희는 RestFul 라이브러리로 자체 통신 오픈소스 JsonWeb을 사용합니다.
+저희는 RestFul 라이브러리로 자체 통신 오픈소스 JsonWeb을 사용합니다. <br>
 다른 라이브러리도 방식이 비슷하니 참고용으로 사용하시기 바랍니다.
 
 ## 정보조회
@@ -9,7 +9,7 @@
 - Method : GET
 - Parameter : userIdx(int)
 
-### Vo 객체 
+### dto 객체 
 ```java
 class DnaResult{
     private int status;          //호출 결과(성공 200)
@@ -91,5 +91,68 @@ class DnaDto {
 <br>
 
 ## 문진결과 입력
+- 호스트 : http://49.50.162.235:8081 (개발서버)
+- URI : /v1/careplus/gsshop/inquiry
+- Method : POST
+- Parameter : InquiryDto
+
+### dto 객체 
+```java
+class InquiryResult{
+    private int status;          //호출 결과(성공 200)
+    private String path;         //uri
+    private String timestamp;    //호출시간
+    private String message;      //결과/에러 메세지
+    private InquiryDto contents;
+
+    //...getter, setter 생략
+}
+
+class InquiryDto{
+    private int q1Height;           //키
+    private int q1Weight;           //몸무게
+    private List<Integer> q2;       //문진 2번(여러가지 선택)
+    private List<Integer> q3_1;     //문진 3_1번(여러가지 선택)
+    private List<Integer> q3_2;     //문진 3_2번(여러가지 선택)
+    private List<Integer> q3_3;     //문진 3_3번(여러가지 선택)
+    private List<Integer> q3_4;     //문진 3_4번(여러가지 선택)
+    private List<Integer> q3_5;     //문진 3_5번(여러가지 선택)
+    private List<Integer> q3_6;     //문진 3_6번(여러가지 선택)
+    private List<Integer> q3_7;     //문진 3_7번(여러가지 선택)
+    private List<Integer> q3_8;     //문진 3_8번(여러가지 선택)
+    private int q4;                 //문진 4번
+    private int q5;                 //문진 5번
+    private int q6;                 //문진 6번
+    private List<Integer> q7;       //문진 3_7번(여러가지 선택)
+    int userIdx;
+    //...getter, setter 생략
+}
+```
+
+### API 호출
+```java
+   String host = "http://49.50.162.235:8081/v1/careplus/gsshop/inquiry";
+   
+   //Dto에 문진 값 입력
+   InquiryDto inquiryDto = new InquiryDto();
+   inquiryDto.setQ1Height(183); //키
+   inquiryDto.setQ1Height(75);  //몸무게
+   int[] q2 = {1,3};            
+   inquiryDto.setQ2(q2);        //2번 문진
+   
+   JsonWeb web = new JsonWeb();
+   web.host(host);
+   
+   HttpResult httpResult = web.Post(inquiryDto); //Post방식 호출
+   
+   if(httpResult.code == 200){        //통신결과가 성공일때(웹서버)
+     DnaResult dnaResult = httpResult.toModel(); // DnaResult를 가져온다.
+      if(dnaResult.getStatus() == 200){              // 조회 결과가 성공일때(로직,시스템)
+        System.out.println("문진결과 입력 완료");
+      }else{
+        System.out.println(dnaResult.message()); //에러메세지 출력
+      }
+   }  
+```
 
 
