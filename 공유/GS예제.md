@@ -3,8 +3,12 @@
 저희는 RestFul 라이브러리로 자체 통신 오픈소스 JsonWeb을 사용합니다. <br>
 다른 라이브러리도 방식이 비슷하니 참고용으로 사용하시기 바랍니다.
 
+## Test apk 다운로드
+
 ## 정보조회
-- 호스트 : http://49.50.162.235:8081 (개발서버)
+- 호스트 
+  - 개발서버 : http://49.50.162.235:8081
+  - 운영서버 : https://app.care8.co.kr
 - URI : /v1/careplus/gsshop/dna
 - Method : GET
 - Parameter : userIdx(int)
@@ -22,11 +26,8 @@ class DnaResult{
 }
 
 class DnaDto {
-    private String trait;   //유전자 특성 코드
+    private String trait;   //유전자 특성 영문명
     private String traitKo; //유전자 특성 한글명
-    private String grade;   //등급(주의)
-    private int score;      //점수
-
     //...getter, setter 생략
 }
 ```
@@ -55,28 +56,12 @@ class DnaDto {
 {
   "contents": [
     {
-      "trait": "omega_6_fatty_acid_levels",
-      "traitKo": "지방산 농도 (오메가-6)",
-      "score": 10,
-      "grade": "주의"
+      "trait": "VitaminA",
+      "traitKo": "비타민 A 농도",
     },
     {
-      "trait": "vitamin_d_levels",
-      "traitKo": "비타민 D 농도",
-      "score": 23,
-      "grade": "주의"
-    },
-    {
-      "trait": "vitamin_d_levels",
-      "traitKo": "비타민 D 농도",
-      "score": 23,
-      "grade": "주의"
-    },
-    {
-      "trait": "vitamin_d_levels",
-      "traitKo": "비타민 D 농도",
-      "score": 23,
-      "grade": "주의"
+      "trait": "VitaminC",
+      "traitKo": "비타민 C 농도",
     }
   ],
   "message": "정상처리 되었습니다.",
@@ -91,7 +76,9 @@ class DnaDto {
 <br>
 
 ## 문진결과 입력
-- 호스트 : http://49.50.162.235:8081 (개발서버)
+- 호스트 
+  - 개발서버 : http://49.50.162.235:8081
+  - 운영서버 : https://app.care8.co.kr
 - URI : /v1/careplus/gsshop/inquiry
 - Method : POST
 - Parameter : InquiryDto
