@@ -3,7 +3,15 @@
 저희는 RestFul 라이브러리로 자체 통신 오픈소스 JsonWeb을 사용합니다. <br>
 다른 라이브러리도 방식이 비슷하니 참고용으로 사용하시기 바랍니다.
 
-## Test apk 다운로드
+<br>
+
+## [API 문서 이동](http://49.50.162.235:8081/swagger-ui.html#/17._Care+)
+
+<br>
+
+## [Test apk 다운로드](https://github.com/invites-healthcare/invites/raw/master/20211119152918-v41(1.3.8)-debug.apk)
+
+<br>
 
 ## 정보조회
 - 호스트 
